@@ -49,6 +49,11 @@ We have included a `vercel.json` configuration file inside the `frontend` folder
 1. You can deploy the Flask app to Render, Heroku, or an AWS EC2 instance.
 2. Remember to update the frontend's Axios API base URL from `http://localhost:5000` to your new live backend URL in `SimulationButton.tsx` and `LogUploader.tsx`.
 3. Upload your `credentials.json` via environment variables (like base64 encoding it) or as a secure secret file on your hosting provider.
+
+---
+
+## Frontend Next.js Information
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
